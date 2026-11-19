@@ -1,0 +1,35 @@
+# COCO dataset (约40GB)
+datasets/
+
+# Model weights and checkpoints
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Training outputs (if regenerated)
+runs/
+results/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.cache
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
